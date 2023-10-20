@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+li{
+list-style-type: none;
+}
+#details{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    float: right;
+}
+a{
+display: block;
+color: #fc0;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+a:hover {
+background-color: #1a1a1a;
+}
+#active{
+    background-color: #ffd300;
+    color: black;
+}
+#myhome{
+height: fit-content;
+width: 500px;
+background-color: black;
+color: #ffcc00;
+font-size: 1.2rem;
+}
+#aboutus{
+    height: fit-content;
+    width: 650px;
+    background-color: black;
+    color: #fc0;
+    font-size: 1.2rem;
+    float: right;
+}
